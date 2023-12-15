@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+button {
+  background-color: transparent;
+  border-width: 0;
+  margin-right: 60px;
+  width: auto;
+  margin-right: 0;
+}
+button:active {
+  opacity: 0.5;
+}
+button:hover {
+  cursor: pointer;
+}
+html {
+  overflow-x: hidden;
+}
