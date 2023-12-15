@@ -1,0 +1,117 @@
+.paragraph {
+  padding-inline: 165px;
+  display: flex;
+}
+.firstParagraphImage {
+  width: 1090px;
+  height: 838px;
+  margin-top: 20px;
+}
+#firstParagraph {
+  overflow: hidden;
+  height: 570px;
+  margin-top: 120px;
+}
+.secondParagraphImage {
+  width: 540px;
+  height: 524.313px;
+  margin-top: -20px;
+}
+#secondParagraph {
+  overflow: hidden;
+  height: 570px;
+  margin-top: 160px;
+}
+.leftSide {
+  margin-right: 90px;
+}
+.primaryText {
+  color: #091133;
+  font-family: "Roboto-Medium";
+  font-weight: 600;
+  font-size: 32px;
+  width: 550px;
+  line-height: 48px;
+}
+.secondaryText {
+  color: #6f7cb2;
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.titlesDiv {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  height: 138px;
+  flex: 1;
+}
+.titleImage {
+  width: 36px;
+}
+.primaryTitleText {
+  color: #091133;
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.secondaryTitleText {
+  color: #5d6970;
+  font-family: "Roboto-Medium";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+#priceParagraph {
+  flex-direction: column;
+}
+#priceParagraphSecondaryText {
+  width: 800px;
+}
+.kitPriceContainer {
+  display: flex;
+}
+.kitPriceBlock {
+  flex: 1;
+}
+.kitPrice {
+  color: #37447e;
+  font-family: "Roboto-Medium";
+  font-size: 36px;
+  font-weight: 600;
+}
+.kitPrimaryText {
+  color: #091133;
+  font-family: "Roboto-Medium";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.kitSecondaryText {
+  color: #5d6970;
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.kitBuyButton {
+  width: 189px;
+  height: 26px;
+  border-radius: 2px;
+  background: #111b47;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+.kitBuyButton:active {
+  border: solid 2px #111b47;
+  background: #fff;
+  color: #111b47;
+}
