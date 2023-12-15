@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My book App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./js/pages/global.js"></script>
+    <script src="./js/pages/my_books.js" defer></script>
+    <script src="./js/service/requests.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-btn">
+            <button class="btn" onclick="goToMyBooks()">My books</button>
+            <div>
+                <input type="text" id="searchInput" placeholder="Search by author...">
+                <button class="btn" id="searchButton">Search</button>
+            </div>
+            <button class="btn" onclick="goToCreateBook()">Create book</button>
+        </div>
+    </header>
+
+    <div id="content">
+        <button class="btn" id="sortButton">Sort by Price</button>
+        <button class="btn" id="countButton">Count Total Price</button>
+        <div id="totalPrice"></div>
+
+
+        <h2>My books</h2>
+        <hr>
+        <div id="content_2">
+
+        </div>
+    </div>
+</body>
+
+</html>
